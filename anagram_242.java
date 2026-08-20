@@ -1,4 +1,7 @@
 import java.util.*;
+//valid anagram means
+//each and every letter must exist same no of times
+//ex s1=anagram s2=nagaram
 public class anagram_242{
    public boolean isAnagram(String s, String t) {
         Map<Character,Integer> s1 = new HashMap<>();
